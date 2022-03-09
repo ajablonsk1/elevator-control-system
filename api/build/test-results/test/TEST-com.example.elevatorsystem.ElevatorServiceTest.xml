@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.elevatorsystem.ElevatorServiceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-03-09T22:45:22" hostname="MacBook-Air-Adrian.local" time="0.322">
+  <properties/>
+  <testcase name="deleteElevator()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.303"/>
+  <testcase name="deleteElevatorThrow()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.002"/>
+  <testcase name="updateElevatorThrow()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.001"/>
+  <testcase name="saveElevator()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.002"/>
+  <testcase name="getElevators()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.001"/>
+  <testcase name="step()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.005"/>
+  <testcase name="updateElevator()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.002"/>
+  <testcase name="orderFloorInElevator()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.001"/>
+  <testcase name="orderElevator()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.002"/>
+  <testcase name="orderFloorInElevatorThrow()" classname="com.example.elevatorsystem.ElevatorServiceTest" time="0.001"/>
+  <system-out><![CDATA[23:45:22.707 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Deleting elevator with 1 id
+23:45:22.736 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Deleting elevator with 1 id
+23:45:22.736 [Test worker] ERROR com.example.elevatorsystem.services.ElevatorService - Elevator with given id doesn't exist!
+23:45:22.738 [Test worker] ERROR com.example.elevatorsystem.services.ElevatorService - Elevator with given id doesn't exist!
+23:45:22.740 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Saving new elevator with id null to database
+23:45:22.741 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Fetching all elevators
+23:45:22.742 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Executing one step of the elevator simulation...
+23:45:22.748 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Updating elevator with id: 1
+23:45:22.749 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Ordering floor 1 in 1 elevator
+23:45:22.751 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Ordering elevator on 1 floor with Up direction
+23:45:22.753 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Ordering floor 1 in 1 elevator
+23:45:22.753 [Test worker] ERROR com.example.elevatorsystem.services.ElevatorService - Elevator with given id doesn't exist!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

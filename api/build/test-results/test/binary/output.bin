@@ -1,0 +1,13 @@
+r23:45:22.707 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Deleting elevator with 1 id
+r23:45:22.736 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Deleting elevator with 1 id
+}23:45:22.736 [Test worker] ERROR com.example.elevatorsystem.services.ElevatorService - Elevator with given id doesn't exist!
+}23:45:22.738 [Test worker] ERROR com.example.elevatorsystem.services.ElevatorService - Elevator with given id doesn't exist!
+ƒ23:45:22.740 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Saving new elevator with id null to database
+m23:45:22.741 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Fetching all elevators
+‡23:45:22.742 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Executing one step of the elevator simulation...
+s23:45:22.748 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Updating elevator with id: 1
+	u23:45:22.749 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Ordering floor 1 in 1 elevator
+
+…23:45:22.751 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Ordering elevator on 1 floor with Up direction
+u23:45:22.753 [Test worker] INFO com.example.elevatorsystem.services.ElevatorService - Ordering floor 1 in 1 elevator
+}23:45:22.753 [Test worker] ERROR com.example.elevatorsystem.services.ElevatorService - Elevator with given id doesn't exist!
