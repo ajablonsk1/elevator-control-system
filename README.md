@@ -52,7 +52,7 @@ After clicking start simulation you will see this:
 ## Algorithm
 Calling the elevator from specific floor:
 * If we call elvator and some of the elevators are free, the nearest free elevator will be called
-* If we call elvator and some of the elevators are not free, algorithm will check, if any elevator can take us by the way
+* If we call elvator and all of the elevators are not free, algorithm will check, if any elevator can take us by the way
 * If none of the elevators can take us by the way, first free elevator will come to us 
 
 Selecting floors in specific elevator:
