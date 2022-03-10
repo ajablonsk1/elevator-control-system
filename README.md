@@ -56,9 +56,9 @@ Calling the elevator from specific floor:
 * If none of the elevators can take us by the way, first free elevator will come to us 
 
 Selecting floors in specific elevator:
-* If we select floor during lifting and it is on our way to destination elevator will stop on this floor
-* If we select floor during lifting and it is not on our way to destination elevator will go there after the first destination is acquired
-* If we select floor when elevator does not lift elevator will take us there instantly
+* If we select floor during lifting and it is on our way to destination, elevator will stop on this floor
+* If we select floor during lifting and it is not on our way to destination, elevator will go there after the first destination is acquired
+* If we select floor when elevator does not move, elevator will take us there instantly
 
 It takes one step of simulation for elevator to stop on specific floor (the passengers must have time to leave the elevator).
 
